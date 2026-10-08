@@ -1,0 +1,9 @@
+[project]
+name = "k4-swirl-vortex"
+version = "0.1.0"
+description = "Two clocks at a turbulent vortex: Goldshtik-Sorokin levitation, Hurricane Otis calibration"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
