@@ -67,7 +67,7 @@ load-bearing structure?
 python3 -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
 python run_swirl.py --swirl otis --out-dir figures
-python -m pytest            # 20 tests
+python -m pytest            # 20 passed
 ```
 
 ## Provenance
